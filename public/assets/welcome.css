@@ -1,0 +1,81 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, aqua, #5c9eed, #9b4dca, #46b8b2, navy);
+}
+
+.welcome a {
+    text-decoration: none;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+#centro {
+    background: linear-gradient(to right, aqua, navy);
+    width: 90%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 90%;
+}
+
+.log{
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    background: linear-gradient(to right, #00ffff, #309e51);
+    margin-right: 20px;
+
+}
+.reg{
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    background: linear-gradient(to right, #00ffff, #309e51);
+    margin-left: 20px;
+
+}
+
+.logi {
+    color: #ffffff; /* Color del texto */
+    background: linear-gradient(to right, aqua, navy);
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Hacer que el enlace se comporte como bloque en línea */
+}
+
+.logi:hover {
+    background: linear-gradient(to right, navy, aqua);
+}
+
+.regi {
+    color: #ffffff; /* Color del texto */
+    background: linear-gradient(to right, aqua, navy);
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Hacer que el enlace se comporte como bloque en línea */
+}
+
+.regi:hover {
+    background: linear-gradient(to right, navy, aqua);
+}

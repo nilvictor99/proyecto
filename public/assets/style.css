@@ -1,0 +1,71 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient( #9BE0CA, #9BC9E0, #9BDFE0, #9BE0B2, #9BB3E0);
+    margin: 0;
+    padding: 0;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #24ee90, #36c5d8, #4f36dd, #45b4ae);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #75ee24, #36cdd8, #3936dd, #6c45b4);
+    }
+
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    div.busca {
+        display: flex;
+        margin-right: auto;
+    }
+
+    input.busca {
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    button.busca {
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button.busca:hover {
+        background-color: #0056b3;
+        color: #fff;
+    }
+
+    /* Estilos para el botón de salir */
+
+    a.salir {
+        background-color: #dc3545;
+        color: #ffffff;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+        text-align: center;
+        width: 80px;
+    }
+
+    a.salir:hover {
+        background-color: #ff0015;
+    }

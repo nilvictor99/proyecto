@@ -1,0 +1,44 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient( #9BE0CA, #9BC9E0, #9BDFE0, #9BE0B2, #9BB3E0);
+    margin: 0;
+    padding: 0;
+}
+.to h2 {
+    color: #ffffff;
+}
+
+.to form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #a6ff7a, #22cc8b);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.to label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.to input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.to button {
+    background-color: #60f165;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.to button:hover {
+    background-color: #3aff44;
+}
